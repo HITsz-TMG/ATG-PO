@@ -11,7 +11,7 @@ OUTPUT_PATH=""
 
 torchrun \
     --nproc_per_node=2 \
-    --master_port=$MASTER_PORT finetune_selfrag.py \
+    --master_port=$MASTER_PORT finetune_ablation.py \
     --model_name_or_path $MODEL \
     --data_path $DATA \
     --bf16 True \

@@ -1,4 +1,5 @@
 # Improving Attributed Text Generation of Large Language Models via Preference Learning
+<font size=2><div align='center' >  [[📖 arXiv Paper](https://arxiv.org/pdf/2403.18381)] </div></font>
 
 ## Overview
 Automatic Preference Optimization(APO) framework includes an automatic preference construction procedure and a fine-grained preference optimization procedure, which is used to handle attributed text generation tasks.
@@ -14,24 +15,24 @@ conda activate attri_trl
 pip install -r requirements.txt
 ```
 
-## post-training
+## Step1: Post-training
 Using data from `post_training`.
 
 The training scripts is provided in `post_training/scripts`.
 
 `finetune.sh` is used to train base model.
 
-`finetune_selfrag.sh` is used to perform continue post-training after the post-training precedure having finished (ablation study).
+`finetune_ablation.sh` is used to perform continue post-training after the post-training precedure having finished (ablation study).
 
 
-## Perference Optimization
+## Step2: Perference Optimization
 
 Using data from `preference_optimization.jsonl`
 
 The training scripts is provided in `po/scripts`.
 
 
-## Evaluation
+## Step3: Evaluation
 
 We use the ALCE official evaluation scripts alongwith custom prompts. The evaluation scripts can be found in `evaluation_alce`.
 

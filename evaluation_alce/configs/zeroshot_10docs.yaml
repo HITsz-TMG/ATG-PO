@@ -1,0 +1,10 @@
+---
+prompt_file: todo
+eval_file: todo
+shot: 0
+ndoc: 10
+dataset_name: asqa
+tag: todo
+model: Llama-2-13b-chat-hf
+temperature: 1.0
+top_p: 0.95

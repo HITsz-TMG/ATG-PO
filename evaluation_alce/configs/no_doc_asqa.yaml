@@ -1,0 +1,10 @@
+---
+prompt_file: prompts/asqa_no_documents.json
+eval_file: data/asqa_eval_gtr_top100.json
+shot: 1
+ndoc: 0
+dataset_name: asqa
+tag: gtr-no_doc-1-0
+model: Llama-2-13b-chat-hf
+temperature: 1.0
+top_p: 0.95

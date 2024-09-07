@@ -1,0 +1,10 @@
+---
+prompt_file: prompts/asqa_custom_prompt.json
+eval_file: data/asqa_eval_gtr_top100.json
+shot: 0
+ndoc: 5
+dataset_name: asqa
+tag: gtr-webgpt_dpo_trl
+model: Llama-2-13b-chat-hf
+temperature: 1.0
+top_p: 0.95
